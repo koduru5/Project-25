@@ -29,6 +29,11 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
+
+  box1.display();
+  box2.display();
+  box3.display();
+  paperObject.display();
   
   drawSprites();
  
